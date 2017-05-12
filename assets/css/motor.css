@@ -1,0 +1,68 @@
+img{
+	width:100%; height:auto;
+}
+#legend-wrap{
+	position:absolute; bottom: 200px; left:0; text-align: center; width:100%;
+}
+#legend-wrap .legendItems{
+	display:inline-block;
+}
+#legend-wrap .legendItems .lItems{
+	float:left;  position:relative; width:250px; height:250px;  margin-left:10px;
+}
+
+/*
+.lItems .bg:hover{
+	transform:rotate(360deg) scale(1.1);
+	-webkit-transform:rotate(360deg) scale(1.1);
+	-moz-transform:rotate(360deg) scale(1.1);
+	-o-transform:rotate(360deg) scale(1.1);
+	-ms-transform:rotate(360deg) scale(1.1);
+}
+*/
+.Ldetail{
+	position: absolute; width:250px; height:250px; background:url(../../images/legend_5_squ_1.png) no-repeat;
+	z-index: 9; -webkit-background-size: 100% auto; left:0; bottom:0;
+	background-size: 100% auto; display:none;
+}
+.Ldetai2{
+	position: absolute; width:250px; height:250px; background:url(../../images/legend_5_squ_2.png) no-repeat;
+	z-index: 9; -webkit-background-size: 100% auto; left:0; bottom:0;
+	background-size: 100% auto; display:none;
+}
+.Ldetai3{
+	position: absolute; width:250px; height:250px; background:url(../../images/legend_5_squ_3.png) no-repeat;
+	z-index: 9; -webkit-background-size: 100% auto; left:0; bottom:0;
+	background-size: 100% auto; display:none;
+}
+
+.lItems .bg{
+	width:250px; height:250px; position:absolute; z-index: 5;
+	background: url(../../images/legend_5_squ_s.png) no-repeat; left:0; bottom:0;
+}
+.l1 .bg{
+	background-position: 0 top;
+}
+.l2 .bg{
+	background-position: -263px top;
+}
+.l3 .bg{
+	background-position: -525px top;
+}
+.l1s .bg{
+	background-position: 0 -250px;
+}
+.l2s .bg{
+	background-position: -263px -250px;
+}
+.l3s .bg{
+	background-position: -525px -250px;
+}
+
+.ltit{
+	position: absolute; top:170px; text-align: center; left:0;  width:100%;
+}
+.ltit h1{
+	font-size: 90px; display:inline-block; color: #fff;
+}
+

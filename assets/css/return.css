@@ -1,0 +1,57 @@
+
+#slider{
+	width:100%; text-align: center;
+}
+#slider .sItem img{
+	width:100%;  z-index: 1;
+}
+#slider .sItem .m-wrap{
+	position:absolute; left:0; top:0; z-index: 5; width:100%; height:100%; text-align: center;
+	padding-top: 50px;
+}
+.m-wrap .mtit{
+	display:inline-block; text-align: center; padding-bottom: 40px;
+}
+.m-wrap .mtit h3{
+	font-size: 68px; color:#fff;
+}
+.m-wrap .mtit h2{
+	display:inline-block; font-size: 90px; padding-bottom: 10px; color:#fff; border-bottom: 1px solid #fff;text-transform: uppercase;
+}
+
+.m-wrap .mdec{
+	width:988px; margin:0 auto; 
+	padding:35px 25px; 
+	background: rgba(0, 0, 0, 0.25); color:#fff;
+	line-height: 1.8; border-radius: 2px; font-size: 15px; 
+	/*max-height: 300px;*/
+}
+
+.m-wrap .btn-wrap{
+	padding-top:35px; 
+}
+.m-wrap .abtn{
+	padding:.3em 5em; font-size: 16px; display:inline-block; border:1px solid #fff; color:#fff;
+}
+.mdec h3{
+	font-size: 22px;margin-bottom: 10px;
+}
+.mdec h4{
+	margin: 25px;
+}
+.mdec p{
+	font-size: 14px; font-weight: lighter; color: #f1f1f1; margin:0 100px 15px 100px; line-height: 1.6;
+}
+.m-wrap .abtn:hover{
+	color:#ff0000; text-decoration: none; background-color: #fff;
+}
+
+.mCSB_scrollTools .mCSB_buttonUp{
+	background-position: -48px 0;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	background-position: -48px -20px;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+	background-color: transparent;
+}

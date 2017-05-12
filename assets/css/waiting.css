@@ -1,0 +1,97 @@
+body{
+	background: #fff;
+}
+.wrap{
+	margin: 0 auto; min-width: 980px;
+}
+#content{
+	position: relative;height: 1040px; text-align: center; overflow:hidden;
+}
+#header{
+	position:absolute; top: 0; left: 0; height: 1040px; display: block; width:100%;
+	background: url(../img/w_bg.gif) no-repeat center;
+	z-index: 8; padding: 0;
+}
+#cn{
+	width:100%; z-index: 9; position:absolute; left:0; top:50%;
+}
+.bg{
+	display:block; max-width:1120px; width:85%; height:452px; 
+	margin:0 auto; border-radius: 2px; margin-top: -226px; 
+}
+.article{
+	position:relative;
+}
+.a-cn{
+	position:absolute; top:0; left:45px; padding: 36px;
+}
+h2{
+	font-size: 20px; font-weight: bold; display:block;
+	 padding-top: 15px; margin-bottom: 30px;
+	 text-transform: uppercase;
+}
+p{
+	line-height: 1.2;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.footItem{
+	width:100%; overflow: hidden; display:block;
+	background: url(../img/w_bg_foot.png); 
+	-webkit-background-size: 100% auto;
+	background-size: 100% auto;
+}
+
+#counter{
+	display:inline-block; margin: 36px 0 0 30px;
+	width: 624px; height: 101px;
+	background-image: url(../img/cdtbg1.png);
+	background-repeat: no-repeat; 
+	padding-left: 30px;
+	background-position:0 12px;
+}
+.cntSeparator{
+	font-size: 32px; height: 77px;
+	color: transparent;
+}
+.cntDigit{
+	margin-right: 5px;
+}
+#dayts{
+	font-size: 14px;
+}
+#day{
+	float: left;
+	margin-left: 215px;
+}
+#hou{
+	float: left;
+	margin-left: 70px;
+}
+#mte{
+	float: left;
+	margin-left: 95px;
+}
+#scd{
+	float: left;
+	margin-left: 85px;
+}
+.wtip{
+	float: right;
+	margin-top: 700px;
+	font-size: 18px;
+	color: #fff;
+	text-align: right;
+}
+.wtip a{
+	color:#fff; margin-left:10px;
+}
+.wtip a:hover{
+	color:#d50032;
+}
+.watxt{
+	font-size: 12px;
+}
+
+
+

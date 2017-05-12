@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Please Waiting……</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/waiting.css">
+</head>
+<body>
+	<div class="wrap">
+		<div id="content">
+			<div id="header">
+				<div id="tip">
+					<ul class="lg">
+						<li><a href="#">DE</a></li>
+						<li class="cur"><a href="#">EN</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<div id="cn">
+				<div class="bg">
+					<div class="article">
+						<div class="a-cn">
+							<h2>Borgward’s homecoming. The return of a legend.</h2>
+							<p>Borgward is one of the most innovative brands in car history.</p><br>
+							<p>The Borgward press conference at the 85th International Motor Show in Geneva, will take place on 3rd March 2015, 13.00 CET in hall 2,<br> booth 2051. We are looking forward to this great moment, our hearts throbbing excitingly with each second elapsed, each meter passed</p>
+							<div id="counter"></div>
+							<div id="dayts">
+								<div id="day">DAY</div>	
+								<div id="hou">HOUR</div>
+								<div id="mte">MINUTE</div>
+								<div id="scd">SECDND</div>
+							</div>
+						</div>
+					</div>
+					<div class="wtip">
+						<span href="#" class="share">
+							<span class="watxt">FOLLOW US :</span>
+							<a href="javascript: void(window.open('http://youtube.com/borgward'));"><i class="fa fa-youtube"></i></a>
+							<a href="javascript: void(window.open('http://twitter.com/borgward_ag'));"><i class="fa fa-twitter"></i></a>
+							<a href="javascript: void(window.open('http://facebook.com/borgward.official'));"><i class="fa fa-facebook"></i></a>
+						</span>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/lib/jquery.js"></script>
+	<script type="text/javascript" src="assets/js/lib/jquery.countdown.js"></script>
+	<script type="text/javascript">
+		(function($){
+
+			$('#counter').countdown({
+				image: 'assets/img/number_bg.png',
+				startTime: '01.12.12.00', 
+			});
+
+			$('#cnt_0').hide();
+
+		})(jQuery);
+	</script>
+</body>
+</html>

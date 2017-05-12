@@ -1,0 +1,38 @@
+
+#slider{
+	width:100%; text-align: center;
+}
+#slider .sItem img{
+	width:100%;  z-index: 1;
+}
+#slider .sItem .m-wrap{
+	position:absolute; left:0; top:0; z-index: 5; width:100%; height:100%; text-align: center;
+	padding-top: 100px;
+}
+.m-wrap .mtit{
+	display:inline-block; text-align: center; padding-bottom: 40px;
+}
+.m-wrap .mtit h3{
+	font-size: 68px; color:#fff;
+}
+.m-wrap .mtit h2{
+	display:inline-block; font-size: 90px; padding-bottom: 10px; color:transparent;
+}
+
+.m-wrap .mdec{
+	width:800px; margin:100px auto; padding:35px 60px; background: rgba(0, 0, 0, 0.25); color:#fff;
+	line-height: 1.8; border-radius: 2px; font-size: 15px;
+}
+.mdec p{
+	font-weight: lighter; color: #f1f1f1; 
+}
+.m-wrap .btn-wrap{
+	padding-top:35px;
+}
+.m-wrap .mdec .abtn{
+	padding:.3em 5em; font-size: 16px; display:inline-block; border:1px solid #fff; color:#fff;
+}
+.m-wrap .mdec .abtn:hover{
+	color:#ff0000; text-decoration: none; background-color: #fff;
+}
+

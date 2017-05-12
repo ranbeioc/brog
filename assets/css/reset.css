@@ -1,0 +1,162 @@
+body {
+  color: ;
+  word-wrap: break-word;
+  background-color: #FFF;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body,
+input,
+textarea,
+select,
+button {
+  font: 14px/1 Tahoma, Geneva, sans-serif;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+input,
+menu,
+textarea,
+figure {
+  margin: 0;
+}
+dd {
+  margin-left: 0;
+}
+section,
+article,
+aside,
+hgroup,
+header,
+footer,
+nav,
+dialog,
+figure,
+figcaption,
+details {
+  display: block;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  color: ;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+  color: ;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+img,
+button {
+  border: none;
+}
+i {
+  display: inline-block;
+}
+em {
+  font-style: normal;
+}
+menu {
+  padding-left: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table th,
+table td {
+  padding: 0;
+}
+button {
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  opacity: 0.9;
+  -webkit-appearance: button;
+}
+button:hover {
+  opacity: 1;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  border: 1px solid #d2d2d2;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+  border: 1px solid #ffa800;
+  outline: 1px solid #ffa800;
+}
+.input-L {
+  padding: 5px 6px;
+  height: 32px;
+}
+.input-M {
+  padding: 4px 6px;
+  height: 28px;
+}
+.input-S {
+  padding: 3px 6px;
+  height: 23px;
+}
+input[type="text"],
+input[type="search"],
+textarea,
+input[type="tel"] {
+  color: #565656;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+input[type="search"]:focus {
+  outline: none;
+}
+input[type="submit"] {
+  border: none;
+}
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+}
+select {
+  border: 1px solid #d2d2d2;
+  text-align: center;
+  color: #565656;
+}
+input,
+label span {
+  vertical-align: middle;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Laws & Privacy</title>
+	<meta name="viewport" content="user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/laws.css">
+</head>
+<body>
+
+
+	<div class="wrap">
+		<div id="header">
+			<div id="logo"><a href="#"><img src="assets/img/logo.png" alt="borgward logo"></a></div>
+			<div id="tip">
+				<ul class="lg">
+					<li><a href="#">DE</a></li>
+					<li class="cur"><a href="#">EN</a></li>
+					
+					<li class="search">
+						<input id="seatop" type="search" class="search-text">
+					</li>
+				</ul>
+			</div>
+			<div id="menu">
+				<ul class="tab">
+						<li><a href="index.html">Home</a></li>
+						<li class="submenus">
+							<a href="histroy.html?sdr=0">Legendary history</a>
+							<ul class="tab2">
+								<li><a href="histroy.html?sdr=0">CARL F.W</a></li>
+								<li><a href="histroy.html?sdr=1">BORGWARD ICONS</a></li>
+								<li><a href="histroy.html?sdr=2">ACHIEVEMENTS</a></li>
+								<li><a href="histroy.html?sdr=3">INNOVATIONS</a></li>
+								<li><a href="histroy.html?sdr=4">DESIGN</a></li>
+								<li><a href="histroy.html?sdr=5">MOTORSPORT</a></li>
+							</ul>
+						</li>
+						<li class="submenus">
+							<a href="return.html?sdr=0">Legendary return</a>
+							<ul class="tab2">
+								<li><a href="return.html?sdr=0">Christian Borgward</a></li>
+								<li><a href="return.html?sdr=1">A famous logo reimagined</a></li>
+								<li><a href="return.html?sdr=2">Brand decoded</a></li>
+								<li><a href="return.html?sdr=3">Brand values</a></li>
+							</ul>
+						</li>
+						<li class="submenus">
+							<a href="prosp.html?sdr=0">Legendary Prospect</a>
+							<ul class="tab2">
+								<li><a href="prosp.html?sdr=2">New energy</a></li>
+								<li><a href="prosp.html?sdr=1">Design DNA</a></li>
+								<li><a href="prosp.html?sdr=0">Connected car</a></li>
+							</ul>
+						</li>
+						<li><a class="last" href="media.html">Press Center</a></li>
+					</ul>
+			</div>
+		</div>
+
+		<div id="container">
+			<div id="sliderC">
+				<h2>laws & privacy</h2>
+				<div class="laws">
+					<h4>Copyright</h4>
+					<p>Copyright 2014 BORGWARD. All Rights Reserved. The text, images, graphics, audio files, video files and animation files, as well as their arrangement on BORGWARD.<br>websites are all subject to copyright and other intellectual property protection laws. These objects may not be copied for commercial use or distribution, nor may these objects.<br>be modified or reposted to other websites. Some BORGWARD internet pages also contain images that are subject to the copyright rights of their providers.</p>
+					<h4>Products and Prices</h4>
+					<p>Changes may have been made to products and services since the copy deadline for individual pages. The manufacturer reserves the right to make changes .<br>to the design, form, colour and the product specification or service scope during the delivery period, provided these changes, while taking into account the <br>interests of BORGWARD, <br>can be deemed reasonable with respect to the purchaser. The illustrations may show accessories, items of optional equipment or other features <br>which are not part of the standard specification or service scope. Colours may differ slightly from those shown on the website, <br>owing to technical limitations. Individual pages may contain models and services which are not available in certain countries. Information given regarding statutory regulations, <br>egal requirements and taxation applies only to the People's Republic of China. Unless stated otherwise in our Terms & Conditions <br>of sale and delivery, the prices as valid on the day of delivery apply. The prices are recommended retail prices for our authorised dealers. <br>Please consult a company-owned sales and service outlet or an authorised dealer for final details.</p>
+					<h4>Trademarks</h4>
+					<p>Unless otherwise indicated, all marks displayed on BORGWARD Internet sites are subject to the trademark rights of BORGWARD, this applies especially to its model names, <br>and its corporate logos and emblems. </p>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			
+			<div class="copy">
+				&copy; 2015 BORGWARD AG - ALL RIGHTS RESERVED.
+			</div>
+			
+				<div class="foot-tip">
+					<span href="#" class="share">Share : 
+						<a href="javascript: void(window.open('https://twitter.com/borgward_ag/?status='.concat(encodeURIComponent(document.title)) .concat('') .concat(encodeURIComponent(location .href))));"><i class="fa fa-twitter"></i></a>
+						<a href="javascript: void(window.open('https://www.facebook.com/borgward.official?u='.concat(encodeURIComponent(location.href)) ));"><i class="fa fa-facebook"></i></a>
+					</span>
+					<a href="sitemap.html" class="map">Sitemap</a>|<a href="media.html" class="map">Download</a>|<a href="law.html" class="map">Laws & Privacy</a>
+				</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/js/lib/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript">
+		(function($){
+
+	        $('.submenus')
+			.mouseover(function(event) {
+				$(this).children('.tab2').show();
+			})
+			.mouseout(function(event) {
+				$(this).children('.tab2').hide();
+			});
+			$('#seatop').keydown(function(e){
+				if(e.keyCode==13){
+					var purl = 'search.html?key=' + $('#seatop').val();
+					window.open(purl);
+				   //$('#FormId').submit();
+				}
+			});
+
+		})(jQuery)
+	</script>
+</body>
+</html>
